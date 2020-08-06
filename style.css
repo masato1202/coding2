@@ -1,0 +1,133 @@
+header{
+  background-color: #1b1310;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  border-bottom: 1px solid white;
+}
+header h2{
+  color: #FFFFFF;
+  font-size: 26px;
+}
+header p{
+  color: #FFFFFF;
+  float: right;
+}
+.main-nav{
+  display: flex;
+  color: #FFFFFF;
+  list-style: none;
+}
+.main-nav li{
+  margin:30px;
+  font-size: 16px;
+}
+.wrapper{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.wrap{
+  max-width: 1030px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.contents{
+  background-image: url(../images/fv-bgi@2x.jpg);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contents h1{
+  color: #FFFFFF;
+  font-size: 50px;
+  border: 1px solid #FFFFFF;
+  padding: 20px 40px;
+}
+.wrapper h3{
+  text-align: center;
+  font-size: 36px;
+}
+.sentence h4{
+  font-size: 24px
+}
+.wrap h3{
+  text-align: center;
+  font-size: 36px;
+}
+.about {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.top{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  flex-direction: row-reverse;
+
+}
+.top-left{
+ margin:auto 80px;
+}
+.bottom{
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.img {
+  max-width:100%;
+  vertical-align: bottom;
+}
+.bottom-left{
+ margin:auto 80px;
+}
+.new{
+  display: flex;
+  box-sizing: border-box;
+}
+.content{
+  margin:0 10px;
+  border: 0.5px solid #b4c1d1;
+}
+.content p{
+  padding: 6px 10px;
+}
+footer{
+  text-align: center;
+  background-color:  #1b1310;
+}
+footer p{
+  color: #FFF;
+  height: auto;
+  padding: 20px;
+
+}
+.form{
+  text-align: center;
+  display: inline;
+  max-width: 700px;
+   margin: 0 auto;
+}
+.btn{
+ display: inline-block;
+ width: 235px;
+ padding: 10px 30px;
+ border-radius: 30px;
+ font-size: 2rem;
+ font-weight: bold;
+ text-align: center;
+ color: #fff;
+ background-color: #1B1310;
+ box-shadow: 0px 0px 6px #1B1310;
+}
+input,textarea{
+    border: 1px solid #141414;
+    padding: 10px;
+    width: 700px;
+}
+.form p{
+  margin: 0;
+}
