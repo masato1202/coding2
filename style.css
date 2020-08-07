@@ -131,3 +131,17 @@ input,textarea{
 .form p{
   margin: 0;
 }
+@media screen and (max-width: 768px){
+  .wrapper{
+    max-width: 768px;
+  }
+  .contents{
+    background-image: url(../images/fv-bgi_sp@2x.jpg);
+    flex-direction: column;
+  }
+  .wrap{
+    padding: 0 15px;
+    flex-direction: column;
+    display: none;
+  }
+}
