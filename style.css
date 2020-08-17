@@ -39,7 +39,7 @@ header p{
   padding: 0 4%;
 }
 .contents{
-  background-image: url(fv-bgi@2x.jpg);
+  background-image: url(../images/fv-bgi@2x.jpg);
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -143,7 +143,7 @@ input,textarea{
 }
 @media (max-width: 768px){
   .contents{
-    background-image: url(fv-bgi_sp@2x.jpg);
+    background-image: url(../images/fv-bgi_sp@2x.jpg);
     background-size: cover;
     flex-direction: column;
     margin-bottom: 100px;
