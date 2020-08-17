@@ -1,0 +1,11 @@
+$(function(){
+  $("#bg").hide();
+  $(".burger-btn").click(function(){
+    $("#bg").fadeIn();
+    $("#body").fadeOut();
+  });
+  $(".close").click(function(){
+    $("#bg").fadeOut();
+    $("#body").fadeIn();
+  });
+});
